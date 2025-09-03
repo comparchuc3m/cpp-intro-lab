@@ -1,7 +1,8 @@
-#include <iostream>
+//#include <iostream>
+#include <print>
 
 int main() {
   using namespace std;
 
-  cout << "Hello C++\n";
+  print("Hello C++\n");
 }
