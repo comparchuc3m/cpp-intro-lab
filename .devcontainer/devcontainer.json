@@ -1,0 +1,19 @@
+{
+  "name": "C++ Dev",
+
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+
+  // Set the default user inside the container
+  //"remoteUser": "ubuntu",
+
+  "workspaceFolder": "/workspace",
+
+  // This ensures your host files are mounted correctly and are accessible by the `ubuntu` user
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated"
+  ]
+
+}
