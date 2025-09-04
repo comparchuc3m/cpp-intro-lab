@@ -76,22 +76,21 @@
 			},
 			// Add the IDs of extensions you want installed when the container is created
 				"extensions": [
-				"ms-vscode.cpptools",
-				"ms-vscode.cpptools-extension-pack",
-				"ms-vscode.cmake-tools",
-				"twxs.cmake",
-				"llvm-vs-code-extensions.vscode-clangd",
-				"ms-vscode.makefile-tools",
-				"xaver.clang-format",
-				"ms-python.python",
-				"ms-python.debugpy",
-				"vadimcn.vscode-lldb",
-				"ms-vscode.hexeditor",
-				"gruntfuggly.todo-tree",
-				"ms-vscode.test-adapter-converter",
-				"matepek.vscode-catch2-test-adapter",
-				"cschlosser.doxdocgen"
-			]
+          "ms-vscode.cpptools",
+          "ms-vscode.cpptools-extension-pack",
+          "ms-vscode.cmake-tools",
+          "twxs.cmake",
+          "llvm-vs-code-extensions.vscode-clangd",
+          "ms-vscode.makefile-tools",
+          "xaver.clang-format",
+          "ms-python.python",
+          "ms-python.debugpy",
+          "vadimcn.vscode-lldb",
+          "ms-vscode.hexeditor",
+          "gruntfuggly.todo-tree",
+          "ms-vscode.test-adapter-converter",
+          "matepek.vscode-catch2-test-adapter",
+          "cschlosser.doxdocgen"        ]
 		}
 	}
 	
