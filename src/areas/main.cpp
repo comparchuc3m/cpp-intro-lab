@@ -1,8 +1,9 @@
-#include <iostream>
 #include "geom.hpp"
+
+#include <print>
 
 int main() {
   double x = 2.0;
   double y = 3.0;
-  std::cout << "area(" << x << "," << y << ")= " << geom::area(x,y) << "\n";
+  std::println("area({}, {})= {}", x, y, geom::area(x, y));
 }
